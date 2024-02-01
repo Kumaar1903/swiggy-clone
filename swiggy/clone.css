@@ -18,13 +18,17 @@
 
 .p1,
 .p2 {
-    height: 8vh;
+    min-height: 8vh;
     min-width: 20%;
     /* background-color: bisque; */
 }
 
 .p2{
     margin-right: 20px;
+}
+
+.y1{
+    display: none;
 }
 
 .lo {
