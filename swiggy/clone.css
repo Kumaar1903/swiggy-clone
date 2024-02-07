@@ -35,6 +35,20 @@
     max-height: 100%;
 }
 
+.logo {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.logo img {
+    transition: transform 0.3s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.2);
+}
+
 .p1 {
     display: flex;
     gap: 10px;
@@ -131,3 +145,31 @@
 .fa-tags:hover, .fa-question-circle:hover, .fa-sign-in-alt:hover, .fa-shopping-cart:hover, .fa-search:hover {
 color: orange;
 }
+
+main{
+    min-height: 60vh;
+    background-color: teal;
+}
+
+.sliders{
+    height: 20vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 40vh;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts{
+    font-size: 20rem;
+    background-color: white;
+    display: inline-block;
+}
+
